@@ -1,7 +1,7 @@
 # Simple-File-System-in-C
 ## Overview
 
-SimpleFS is a small educational filesystem implemented in C.
+SimpleFS is a small filesystem implemented in C.
 It simulates a block-based filesystem using a virtual disk image
 (`disk.img`) instead of interacting with a real disk.
 
@@ -65,7 +65,7 @@ This produces a single binary: `./simplefs`.
 
 On first run, `disk.img` (the 2 MB simulated disk) does not exist yet, so the filesystem auto-formats one:
 
-On every subsequent run, the existing `disk.img` is mounted and your files persist.
+On every subsequent run, the existing `disk.img` is mounted, and your files persist.
 ---
 
 ## Disk image
@@ -86,3 +86,6 @@ rm disk.img
 | Clean | `make clean` | Removes binaries, object files, and `disk.img` |
 | Valgrind | `make valgrind` | Runs under Valgrind for memory leak checking |
 ---
+
+## Mention. It was made with 40% vibecoding as a fun side self-educational project.
+
