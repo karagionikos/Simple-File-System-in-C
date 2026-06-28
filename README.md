@@ -32,7 +32,7 @@ Defines the filesystem interface and data structures.
 ### `fs.c`
 Contains the filesystem implementation.
 
-## `main.c`
+### `main.c`
 Provides an interactive command shell.
 ---
 
