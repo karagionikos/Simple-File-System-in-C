@@ -54,7 +54,6 @@ No external libraries required. Works on Linux and macOS. On Windows, use WSL.
 cd simplefs
 make
 ```
- 
 This produces a single binary: `./simplefs`.
 ---
 
