@@ -34,12 +34,12 @@ Contains the filesystem implementation.
 
 ### `main.c`
 Provides an interactive command shell.
+
 ---
 
 # SimpleFS — Setup Guide
 
 ## Requirements
- 
 | Tool | Minimum version | Check with |
 |------|----------------|------------|
 | GCC  | 4.9+           | `gcc --version` |
