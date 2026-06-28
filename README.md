@@ -87,5 +87,5 @@ rm disk.img
 | Valgrind | `make valgrind` | Runs under Valgrind for memory leak checking |
 ---
 
-## Mention. It was made with 40% vibecoding as a fun side self-educational project.
-
+Mention. It was made with 40% vibecoding as a fun side self-educational project.
+---
